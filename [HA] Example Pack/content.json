@@ -1,0 +1,49 @@
+{
+    // Default content pack
+    "Content": [
+        {
+            "Animations": {
+                "FarmerOffset": {
+                    "X": -6,
+                    "Y": 0
+                },
+                "FarmerFrames": {
+                    "Up": {
+                        "Frame": 113
+                    },
+                    "Down": {
+                        "Frame": 107
+                    },
+                    "Left": {
+                        "Frame": 106,
+                        "OffsetX": 2
+                    },
+                    "Right": {
+                        "Frame": 106,
+                        "OffsetX": -6
+                    }
+                },
+                "HorseFrames": [
+                    {
+                        "OffsetY": 0
+                    },
+                    {
+                        "OffsetY": -4
+                    },
+                    {
+                        "OffsetY": -4
+                    },
+                    {
+                        "OffsetY": 0
+                    },
+                    {
+                        "OffsetY": 4
+                    },
+                    {
+                        "OffsetY": 4
+                    }
+                ]
+            }
+        }
+    ]
+}

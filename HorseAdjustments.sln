@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorseAdjustments", "HorseAdjustments\HorseAdjustments.csproj", "{CA4D4053-2B08-4185-8EC9-F59792DE84D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[HA] Example Pack", "[HA] Example Pack\[HA] Example Pack.csproj", "{34FB1D20-66D4-4EB6-B739-2734B0731CBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA4D4053-2B08-4185-8EC9-F59792DE84D4}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{CA4D4053-2B08-4185-8EC9-F59792DE84D4}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{CA4D4053-2B08-4185-8EC9-F59792DE84D4}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{CA4D4053-2B08-4185-8EC9-F59792DE84D4}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{34FB1D20-66D4-4EB6-B739-2734B0731CBD}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{34FB1D20-66D4-4EB6-B739-2734B0731CBD}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{34FB1D20-66D4-4EB6-B739-2734B0731CBD}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{34FB1D20-66D4-4EB6-B739-2734B0731CBD}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B561BB9-6BC6-4CB0-AD8D-391CC0B9E46E}
+	EndGlobalSection
+EndGlobal

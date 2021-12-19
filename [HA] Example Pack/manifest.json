@@ -1,0 +1,11 @@
+﻿{
+    "Name": "[HA] Example Pack",
+    "Author": "blueberry",
+    "Version": "1.0.0",
+    "Description": "Example pack for Horse Adjustments",
+    "UniqueID": "blueberry.HA.ExamplePack",
+    "UpdateKeys": [ "Nexus:????" ],
+    "ContentPackFor": {
+        "UniqueID": "blueberry.HorseAdjustments"
+    }
+}

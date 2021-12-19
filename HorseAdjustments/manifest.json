@@ -1,0 +1,10 @@
+﻿{
+    "Name": "Horse Adjustments",
+    "Author": "blueberry",
+    "Version": "1.0.0-beta-0.0.1",
+    "Description": "Framework and helper for horse replacement mods.",
+    "UniqueID": "blueberry.HorseAdjustments",
+    "EntryDll": "HorseAdjustments.dll",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:10378" ]
+}
