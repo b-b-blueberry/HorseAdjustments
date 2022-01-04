@@ -2,7 +2,7 @@
 
 namespace HorseAdjustments.Data
 {
-	public class HorseFrame
+	public class FarmerData
 	{
 		public Point? Offset = null;
 	}

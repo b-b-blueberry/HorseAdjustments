@@ -3,44 +3,275 @@
     "Content": [
         {
             "Animations": {
-                "FarmerOffset": {
-                    "X": -6,
-                    "Y": 0
-                },
                 "FarmerFrames": {
-                    "Up": {
-                        "Frame": 113
-                    },
-                    "Down": {
-                        "Frame": 107
-                    },
-                    "Left": {
-                        "Frame": 106,
-                        "OffsetX": 2
-                    },
-                    "Right": {
-                        "Frame": 106,
-                        "OffsetX": -6
+                    "Directions": {
+                        "Up": {
+                            "Frame": 113
+                        },
+                        "Down": {
+                            "Frame": 107
+                        },
+                        "Left": {
+                            "Frame": 106,
+                            "Offset": {
+                                "X": 2,
+                                "Y": 0
+                            },
+                            "Right": {
+                                "Frame": 106,
+                                "Offset": {
+                                    "X": -6,
+                                    "Y": 0
+                                }
+                            }
+                        }
                     }
                 },
                 "HorseFrames": [
                     {
-                        "OffsetY": 0
+                        "Offset": {
+                            "X": 0,
+                            "Y": 0
+                        }
                     },
                     {
-                        "OffsetY": -4
+                        "Offset": {
+                            "X": 0,
+                            "Y": -4
+                        }
                     },
                     {
-                        "OffsetY": -4
+                        "Offset": {
+                            "X": 0,
+                            "Y": -4
+                        }
                     },
                     {
-                        "OffsetY": 0
+                        "Offset": {
+                            "X": 0,
+                            "Y": 0
+                        }
                     },
                     {
-                        "OffsetY": 4
+                        "Offset": {
+                            "X": 0,
+                            "Y": 4
+                        }
                     },
                     {
-                        "OffsetY": 4
+                        "Offset": {
+                            "X": 0,
+                            "Y": 4
+                        }
+                    }
+                ]
+            },
+            "Farmer": {
+                "Offset": {
+                    "X": -6,
+                    "Y": 0
+                }
+            },
+            "Horse": {
+                "Offset": {
+                    "X": 0,
+                    "Y": 0
+                },
+                "Directions": {
+                    "Up": {
+                        "Draw": {
+                            "Offset": {
+                                "X": 48,
+                                "Y": -24
+                            },
+                            "SourceRectangle": {
+                                "X": 160,
+                                "Y": 96,
+                                "Width": 9,
+                                "Height": 15
+                            }
+                        }
+                    }
+                }
+            },
+            "Hats": {
+                "Offset": {
+                    "X": 0,
+                    "Y": 0
+                },
+                "Entries": [
+                    {
+                        "Target": [ 0, 1, 2, 3, 4, 5, 6 ],
+                        "Offset": {
+                            "X": 30,
+                            "Y": -42
+                        },
+                        "IsBouncy": true
+                    },
+                    {
+                        "Target": [ 7, 8 ],
+                        "Offset": {
+                            "X": 70,
+                            "Y": -74
+                        }
+                    },
+                    {
+                        "Target": [ 9 ],
+                        "Offset": {
+                            "X": 70,
+                            "Y": -70
+                        }
+                    },
+                    {
+                        "Target": [ 11 ],
+                        "Offset": {
+                            "X": 66,
+                            "Y": -74
+                        }
+                    },
+                    {
+                        "Target": [ 10, 12 ],
+                        "Offset": {
+                            "X": 66,
+                            "Y": -78
+                        }
+                    },
+                    {
+                        "Target": [ 13 ],
+                        "Offset": {
+                            "X": 70,
+                            "Y": -78
+                        }
+                    },
+                    {
+                        "Target": [ 21 ],
+                        "Offset": {
+                            "X": 66,
+                            "Y": -66
+                        }
+                    },
+                    {
+                        "Target": [ 22 ],
+                        "Offset": {
+                            "X": 70,
+                            "Y": -54
+                        }
+                    },
+                    {
+                        "Target": [ 23, 24 ],
+                        "Offset": {
+                            "X": 70,
+                            "Y": -42
+                        }
+                    },
+                    {
+                        "Target": [ 14, 15, 16, 17, 18, 19, 20, 25 ],
+                        "Offset": {
+                            "X": 28,
+                            "Y": -106
+                        },
+                        "IsBouncy": true
+                    },
+                    {
+                        "Target": [ 6 ],
+                        "Offset": {
+                            "X": 0,
+                            "Y": 2
+                        },
+                        "Directions": {
+                            "Down": {
+                                "Offset": {
+                                    "X": 0,
+                                    "Y": -1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Target": [ 14 ],
+                        "Directions": {
+                            "Up": {
+                                "Hide": true
+                            }
+                        }
+                    },
+                    {
+                        "Target": [ 10 ],
+                        "Offset": {
+                            "X": 0,
+                            "Y": 3
+                        },
+                        "Directions": {
+                            "Up": {
+                                "Hide": true
+                            }
+                        }
+                    },
+                    {
+                        "Target": [ 9, 32 ],
+                        "Directions": {
+                            "Up": {
+                                "Offset": {
+                                    "X": 0,
+                                    "Y": 1
+                                }
+                            },
+                            "Down": {
+                                "Offset": {
+                                    "X": 0,
+                                    "Y": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Target": [ 31 ],
+                        "Offset": {
+                            "X": 0,
+                            "Y": 1
+                        }
+                    },
+                    {
+                        "Target": [ 11, 39 ],
+                        "Directions": {
+                            "Right": {
+                                "Offset": {
+                                    "X": 2,
+                                    "Y": 0
+                                }
+                            },
+                            "Left": {
+                                "Offset": {
+                                    "X": -2,
+                                    "Y": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Target": [ 26 ],
+                        "Directions": {
+                            "Right": {
+                                "Offset": {
+                                    "X": 1,
+                                    "Y": 0
+                                }
+                            },
+                            "Left": {
+                                "Offset": {
+                                    "X": -1,
+                                    "Y": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Target": [ 56, 67 ],
+                        "Directions": {
+                            "Up": {
+                                "Hide": true
+                            }
+                        }
                     }
                 ]
             }
